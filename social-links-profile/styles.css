@@ -1,0 +1,50 @@
+body {
+  background-color: #191a1b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 80px 0;
+}
+.card {
+  background-color: #282a2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+
+  margin: 20px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+h3 {
+  color: lime;
+  margin: -20px 5px 15px;
+  font-size: 15px;
+}
+p {
+  margin: 0px 5px 15px;
+}
+.btns {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 10px 80px;
+  margin: 4px;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: lime;
+  cursor: pointer;
+}
+.attribution {
+  /* margin: 0 -50px; */
+}
