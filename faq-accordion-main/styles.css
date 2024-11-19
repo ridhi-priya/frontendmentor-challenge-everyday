@@ -17,8 +17,15 @@ body{
     background-color: #FFFFFF;
     padding: 15px;
 }
+h5{
+    cursor: pointer; 
+}
+p{
+    font-size: 16px;
+    color: #4d4b4b;
+}
 
-.btn{
+button{
     background-color: #AA32D4;
     color: #fff;
     border: none; 
