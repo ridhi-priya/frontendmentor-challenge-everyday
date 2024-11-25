@@ -20,9 +20,14 @@ body{
 h5{
     cursor: pointer; 
 }
+img{
+    height: 30px;
+    width: 30px;
+}
 p{
     font-size: 16px;
     color: #4d4b4b;
+    display: none;
 }
 
 button{

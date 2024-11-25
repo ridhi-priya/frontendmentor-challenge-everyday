@@ -24,10 +24,10 @@
   <body>
     <div class="container">
       <div class="card">
-        <h1>FAQs</h1>
-        <h5 onclick="myFunction1()">
+        <h1> <img src="star.ico" alt="starIMG">FAQs</h1>
+        <h5>
           What is Frontend Mentor, and how will it help me?
-          <button class="add">+</button> <button class="sub">-</button>
+          <button class="add" onclick="toggleParagraph('.p1', this)">+</button>
         </h5>
         <p class="p1">
           Frontend Mentor offers realistic coding challenges to help developers
@@ -35,17 +35,17 @@
           JavaScript. It's suitable for all levels and ideal for portfolio
           building.
         </p>
-        <h5 onclick="myFunction2()">
-          Is Frontend Mentor free? <button class="add">+</button> <button class="sub">-</button>
+        <h5>
+          Is Frontend Mentor free? <button class="add" onclick="toggleParagraph('.p2', this)">+</button>
         </h5>
         <p class="p2">
           Yes, Frontend Mentor offers both free and premium coding challenges,
           with the free option providing access to a range of projects suitable
           for all skill levels.
         </p>
-        <h5 onclick="myFunction3()">
+        <h5>
           Can I use Frontend Mentor projects in my portfolio?
-          <button class="add">+</button> <button class="sub">-</button>
+          <button class="add" onclick="toggleParagraph('.p3', this)">+</button>
         </h5>
         <p class="p3">
           Yes, you can use projects completed on Frontend Mentor in your
@@ -53,9 +53,9 @@
           employers!
         </p>
 
-        <h5 onclick="myFunction4()">
+        <h5>
           How can I get help if I'm stuck on a Frontend Mentor challenge?
-          <button class="add">+</button> <button class="sub">-</button>
+          <button class="add" onclick="toggleParagraph('.p4', this)">+</button>
         </h5>
         <p class="p4">
           The best place to get help is inside Frontend Mentor's Discord
