@@ -1,0 +1,28 @@
+body {
+  background-color: #1f2631;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.dice{
+    background-color: hsl(150, 100%, 66%);
+    padding: 13px;
+    border-radius: 50%;
+}
+.card {
+  background-color: #313a49;
+  color: aliceblue;
+  padding: 100px 150px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+.attribution {
+  color: #fff;
+}
