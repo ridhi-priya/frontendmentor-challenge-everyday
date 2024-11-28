@@ -10,19 +10,41 @@ body {
   align-items: center;
   height: 90vh;
 }
-.dice{
-    background-color: hsl(150, 100%, 66%);
-    padding: 13px;
-    border-radius: 50%;
+#dice {
+  background-color: hsl(150, 100%, 66%);
+  padding: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+  bottom: 10px;
+  position: absolute;
+  left: 46%;
+}
+h3{
+  color: hsl(150, 100%, 66%);
 }
 .card {
   background-color: #313a49;
   color: aliceblue;
-  padding: 100px 150px;
+  padding: 100px 100px;
   border: 1px solid #ddd;
   border-radius: 8px;
   text-align: center;
+  position: relative;
+  height: 150px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
 }
 .attribution {
   color: #fff;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+#dice:hover {
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for both background color and shadow */
+  box-shadow: 0 0 20px hsl(150, 100%, 66%); /* Initial shadow */
 }
