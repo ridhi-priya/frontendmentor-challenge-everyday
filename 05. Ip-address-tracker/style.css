@@ -8,10 +8,17 @@ body {
     align-items: center;
 }
 section{
-    width: 80%;
     text-align: center;
+    overflow: hidden;
 }
-
+.upper-sec{
+    background-image: url('./images/pattern-bg-desktop.png');
+    width: 100vw;
+    height: 35vh;
+    background-repeat: round;
+    padding: 1em 2em;
+    color: white;
+}
 input{
     padding: 0.5rem 3rem;
     border: 1px solid #ccc;
@@ -23,20 +30,28 @@ input:focus {
 button{
     background-color: black;
     color: white;
+    padding: 0.5rem ;
+
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    padding: 1rem;
+    padding: 0 15% ;
+    transform: translateY(-50%);
+    
 }
 
 .grid-item {
     background-color: #ddd;
-    padding: 1rem;
+    padding: 3rem;
     text-align: center;
+    background-color: white;
 }
-
+span{
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
