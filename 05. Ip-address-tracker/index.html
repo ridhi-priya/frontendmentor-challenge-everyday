@@ -13,7 +13,9 @@
     />
 <link rel="stylesheet" href="style.css">
     <title>Frontend Mentor | IP Address Tracker</title>
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
     
   </head>
   <body>
@@ -22,13 +24,15 @@
       <input
         type="text"
         placeholder="Search for any IP address or domain"
+        size="40"
       /><button>></button></div>
       <div class="lower-sec">
       <div class="grid-container">
-        <div class="grid-item"><span>IP Address</span></div>
-        <div class="grid-item"><span>Location</span></div>
-        <div class="grid-item"><span>Timezone</span></div>
-        <div class="grid-item"><span>ISP</span></div>
+        <!-- IP Address, Location, Timezone, ISP -->
+        <div class="grid-item"><span>192.212.174.101</span></div>
+        <div class="grid-item"><span>Broonklyn, NY 1001</span></div>
+        <div class="grid-item"><span>UTC-05:00</span></div>
+        <div class="grid-item"><span>SpaceX Starlink</span></div>
     </div>
     <div class="attribution">
       Challenge by
